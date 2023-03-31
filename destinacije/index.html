@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="zadatak.css">
+    <script src="zadatak.js"></script>
+    <title>ITP prvi kolokvijum – Putovanja</title>
+</head>
+<body>
+    <div class="transparentnost">
+        <h1>Putovanja</h1>
+        <ul class="lista">
+            <li onmouseenter="naUlazakMisa('lastMinute')" onmouseleave="naIzlazakMisa('lastMinute')" onclick="naKlik()">Last Minute</li>
+            <li onmouseenter="naUlazakMisa('gradoviEvrope')" onmouseleave="naIzlazakMisa('gradoviEvrope')" onclick="naKlik()">Gradovi Evrope</li>
+            <li onmouseenter="naUlazakMisa('zima')" onmouseleave="naIzlazakMisa('zima')" onclick="naKlik()">Zima</li>
+            <li onmouseenter="naUlazakMisa('dalekaDestinacija')" onmouseleave="naIzlazakMisa('dalekaDestinacija')" onclick="naKlik()">Daleke destinacije</li>
+        </ul>    
+        <br><br><br>
+        <label></label>
+    <div id="dalekaDestinacija" class="opis"><img src="./img/dalekeDestinacije.jpg" alt="Daleke destinacije" width="320" height="640"></div>
+    <div id="gradoviEvrope" class="opis"><img src="./img/gradoviEvrope.jpg" alt="Daleke destinacije" width="320" height="640"></div>
+    <div id="lastMinute" class="opis"><img src="./img/lastMinute.jpg" alt="Daleke destinacije" width="320" height="640"></div>
+    <div id="zima" class="opis"><img src="./img/zima.jpg" alt="Daleke destinacije" width="320" height="640"></div>
+   </div>
+    <footer class="futerBox">
+        © Copyright - 2020 -
+        <a class="futer" href="index.html">Internet tehnologije i programiranje</a>
+    </footer>
+</body>
+</html>

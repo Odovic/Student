@@ -1,0 +1,91 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.dugmadBox{
+    width: 100%;
+    text-align: center;
+}
+.dugmad>li{
+    display: inline-block;
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    line-height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border: 1px solid black;
+}
+.slikaBox{
+    text-align: center;
+}
+.slika{
+    height: 50vh;
+    border: 3px solid black;
+}
+.dugmad>li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.opisBox{
+    position: absolute;
+}
+.opis{
+    margin-top: 50px;
+    width: 80%;
+    padding: 20px;
+    text-align: justify;
+    display: none;
+}
+.futerBox{
+    font-style: italic;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+.futer{
+    text-decoration: none;
+}
+table,th,td{
+    border-collapse: collapse;
+    margin: auto;
+}
+table{
+    width: 80%;
+    text-align: center;
+    border: 1px solid #FFC125;
+    border-right:1px solid white;
+}
+th,tr{
+    line-height: 23px;
+    background-color: #EE4000;
+    color: white;
+    border-right:1px solid white;
+    padding: 8px;
+}
+tr:nth-child(even)
+{
+    background-color: #FFC125;
+    border-right:1px solid white;
+}
+tr:nth-child(odd)
+{
+    background-color: #DDDDDD;
+    border-right:1px solid white;
+}
+.logInForma{
+    margin-top: 20px;
+    text-align: center;
+}
+.misUlazi:hover{
+    color: blue;
+    cursor: pointer;
+}

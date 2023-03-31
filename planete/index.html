@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="zadatal.css">
+    <script src="zadatak.js"></script>
+    <title>ITP prvi kolokvijum – Sunčev sistem</title>
+</head>
+<body>
+    <h1>Suncev sistem</h1>
+    <div class="dugmadBox">
+        <ul class="dugmad">
+            <li onmouseenter="naUlazakMisa('zvjezda')" onmouseleave="naizlazakMisa('zvjezda')">Zvijezde</li>
+            <li onmouseenter="naUlazakMisa('planeta')" onmouseleave="naizlazakMisa('planeta')" onclick="naklik()">Planete</li>
+            <li onmouseenter="naUlazakMisa('asteroid')" onmouseleave="naizlazakMisa('asteroid')">Asteroid</li>
+        </ul>
+    </div>
+    <div class="slikaBox">
+        <img src="slika/SolarSystem.png" alt="Solarni sistem" title="Solarni sistem" class="slika">
+    </div>
+    <div class="opisBox">
+    <div class="opis" id="zvjezda">
+        <b>Звијезда</b> небеско је тело које зрачи сопственом
+        светлошћу. Сфероидног је облика, а у стању плазме (високо
+        јонизованог гаса на великој температури) састоји
+        се највише од водоника и хелијума, и тек малог дела од
+        других елемената. Звезда ствара енергију у свом језгру
+        термонуклеарним реакцијама. Та енергија се преноси у
+        околни простор путем конвекције и <i>електромагнетног</i>
+        зрачења и честица.
+    </div>
+    <div class="opis" id="planeta">
+        <b>Планета</b> <i>(„лутајућа звезда”)</i> је небеско тело које се
+        креће елиптичном путањом око звезде. За разлику од звезда,
+        планете немају властити извор енергије, тј. у њиховој унутрашњости
+        не долази до нуклеарне фузије. Будући да постоји мноштво тела која
+        круже око звезда, планетама сматрамо само оне значајнијих маса.
+        Око планета круже мања тела која називамо месецима, пратиоцима
+        или природним сателитима.
+    </div>
+    <div class="opis" id="asteroid">
+        <b>Астероиди</b> или <b>планетоиди</b> су камена или метална небеска
+        тела пречника већег од 1 метар, који самостално или у групи сличних
+        тела обилазе око Сунца. Већина планетоида обилази Сунце у главном
+        планетоидном појасу (астероидни појас) између Марса и Јупитера, део
+        прилази Сунцу ближе од Марса (Амори) и Земље (Аполони) и називају се
+        Земљи блиски астероиди, део се креће на путањи Јупитера или других
+        планета (Тројанци).
+    </div>
+</div>
+<footer class="futerBox">
+    © Copyright - 2019 -
+    <a href="index.html" class="futer">Интернет технологије и програмирање</a>
+</footer>
+</body>
+</html>

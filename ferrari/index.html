@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="zadatak.css">
+    <script src="zadatak.js"></script>
+    <title>Ferrari – Official Dealer</title>
+</head>
+<body>
+    
+    <div class="logoBox">
+        <img src="images/logo.png" alt="Logo" title="Logo" class="logo">
+    </div>
+<table>
+    <tr>
+    <div class="listaBox">
+        <ul class="lista">
+            <li onclick="naKlik('stradale')"><a class="text">360 Stradale</a> <a class="godine">2000-2005</a><br><br><a class="opis">2-door spider</a></li>
+            <li onclick="naKlik('fxxk')"><a class="text">FXX-K</a> <a class="godine">2015-2017</a><br><br><a class="opis">2-door berlineta</a></li>
+            <li onclick="naKlik('laferrari')"><a class="text">LaFerrari</a> <a class="godine">2013-2018</a><br><br><a class="opis">2-door coupe</a></li>
+            <li onclick="naKlik('superFast')"><a class="text">812 Superfast</a> <a class="godine"> 2017</a><br><br><a class="opis">2-door berlineta</a></li>
+            <li onclick="naKlik('pista')"><a class="text">488 Pista</a> <a class="godine"> 2015-2019</a><br><br><a class="opis">2-door berlineta</a></li>
+        </ul>
+    </div>
+</tr>
+<tr>
+    <div class="slikaBox">
+        <img src="./images/360ChallengeStradale2000.png" alt="360Stradale" title="360Stradale" id="stradale">
+        <img src="./images/488PistaSpider2000.png" alt="488Pista" title="488Pista" id="pista">
+        <img src="./images/812Superfast2000.png" alt="812Superfast" title="812Superfast" id="superFast">
+        <img src="./images/FXXK2000.png" alt="fxxk" title="fxxk" id="fxxk">
+        <img src="./images/LaFerrari2000.png" alt="laFerari" title="LaFerrari" id="laferrari">
+    </div>
+</tr>
+<tr>
+    <div class="forma">
+        <br><br><br><br>
+        <form action="narudzba('this')">
+            <label class="tekstForme">Color:</label>
+            <input type="color"><br><br>
+            <label class="tekstForme">Roof:</label>
+            <input type="checkbox" checked><br><br>
+            <label class="tekstForme">Rims:</label>
+            <select name="felge" id="felge">
+                <option value="petokraka">Petokraka</option>
+                <option value="zvjezda">Zvjezda</option>
+                <option value="majbah">Majbah</option>
+                <option value="naruzdba">Naruzdba</option>
+            </select><br><br>
+            <label class="tekstForme">Exoust:</label><input type="radio" checked value="1"><label class="tekstFormeR">Standard</label><br>
+            <input type="radio" class="tekstFormeRr" value="2"><label class="tekstFormeRrr">Sport</label><br>
+            <input type="radio" class="tekstFormeRr" value="3"><label class="tekstFormeRrr">Black Ceramic</label><br><br>
+            <button class="dugme" onclick="prelazakNaNaruzdbu()"></button>
+        </form>
+    </div>
+</tr>
+</table>
+
+<footer class="futerBox">
+    <marquee behavior="" direction="" class="pokretniTekst">‘...Customize your Ferrari with the Official Car 
+        Configurator. Choose colors, design, setup, wheels, and customize your Ferrari in every detail...’</marquee>
+</footer>
+</body>
+</html>

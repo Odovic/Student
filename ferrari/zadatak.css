@@ -1,0 +1,107 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logoBox
+{
+    text-align: center;
+}
+.logo{
+    height: 25vh;
+    width: 25vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.listaBox
+{
+    width: 27vw;
+    height: 55vh;
+}
+.lista{
+    list-style: none;
+}
+.lista>li{
+    background-color: #EEEEEE;
+    border:2px solid #999999;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-bottom: 2px;    
+}
+.text{
+    margin-left: 10px;
+    line-height: 23px;
+    font-weight: bold;
+}
+.godine{
+    margin-right: -10px;
+    line-height: 23px;
+    font-weight: bold;
+}
+.opis{
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+    line-height: 18px;
+    margin-left: 10px;
+}
+.lista>li:hover{
+    background-color: #C0C0C0;
+    border: 3px solid #666666;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.slikaBox{
+    width: 46vw;
+    height: 55vh;
+    display: none;
+}
+.futerBox{
+    position: absolute;
+    bottom: 20px;
+    width: 99%;
+}
+.pokretniTekst{
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: #EEEEEE;
+}
+.forma{
+    position: absolute;
+    right: 25px;
+    top: 200px;
+    width: 27vw;
+    height: 55vh;
+    background-color: #EEEEEE;
+    border: 2px solid #999999;
+    border-radius: 7px;
+}
+.tekstForme{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 125px;
+}
+.tekstFormeR{
+    font-weight: bold;
+    font-style: italic;
+}
+.tekstFormeRr{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 192px;
+}
+.tekstFormeRrr{
+    font-weight: bold;
+    font-style: italic;
+}
+.dugme{
+    margin-left: 100px;
+    border-radius: 35px;
+    width: 200px;
+    height: 75px;
+    background-image: url('./images/OrderButton.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
