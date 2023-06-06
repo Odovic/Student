@@ -1,0 +1,52 @@
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.notice{
+    border-radius: 5px;
+    border: 1px solid #b13614;
+    background-color: rgba(242, 74, 24, 0.71);
+    color: #b13614;
+    text-align: center;
+    font-family: Arial;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
+#zaglavlje
+{
+    display: grid;
+}
+
+#naslov {
+    position: absolute;
+    left: 15px;
+}
+
+#korisnik {
+    position: absolute;
+    right: 5px;
+}
+
+#lista
+{
+    text-align: center;
+    margin-top: 80px;
+}
+
+table {
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr > td:nth-of-type(1){
+    text-align: left;
+}
+
+td {
+    border: 1px solid black;
+}
