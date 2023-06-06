@@ -1,0 +1,57 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.add-header {
+    text-align: right;
+}
+
+.add {
+    width: 140px;
+    height: 40px;
+}
+
+.table-container {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.select-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid darkgray;
+    text-align: center;
+}
+
+.delete {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+th {
+    background-color: lightgray;
+    padding: 10px 15px;
+    border: 1px solid darkgray;
+}
+
+td {
+    padding: 15px 20px;
+    border: 1px solid darkgray;
+}
+
+.number {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
