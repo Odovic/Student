@@ -1,0 +1,75 @@
+* {
+    font-family: "Segoe Print", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.logo {
+    width: 500px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.right-label {
+    text-align: right;
+    font-weight: bold;
+}
+
+.right-label-note {
+    text-align: right;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.input-width {
+    width: 100%;
+}
+
+.space {
+    margin-right: 50px;
+}
+
+.submit-button {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0;
+    color: black;
+    background-color: green;
+    width: 100%;
+    cursor: pointer;
+}
+
+.reset-button {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0;
+    color: black;
+    background-color: red;
+    width: 100%;
+    cursor: pointer;
+}
+
+.notification {
+    text-align: center;
+    background-color: red;
+    color: black;
+    margin-top: 5px;
+    border: 1px black solid;
+}
+
+.wrong-input {
+    border: 1px solid red;
+}
